@@ -4,8 +4,6 @@
  */
 package dasar;
 
-import java.util.Scanner;
-
 /**
  *
  * @author ryori
@@ -19,8 +17,8 @@ public class Main {
         // membuat objek dari class PersegiPanjang
         Matematika PersegiPanjang = new PersegiPanjang(2, 12);
         // menampikan output luas segitiga dan persegi panjang
-        System.out.println("Luas Segitiga: " + Segitiga.getArea());
-        System.out.println("Luas Persegi Panjang " + PersegiPanjang.getArea());
+        System.out.println("Luas Segitiga: " + Segitiga.luas());
+        System.out.println("Luas Persegi Panjang " + PersegiPanjang.luas());
 
     }
 }

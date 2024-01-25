@@ -14,7 +14,7 @@ public class Circle extends Matematika{
         this.radius = radius;
     }
     @Override
-    float getArea() {
+    float luas() {
         return(float) (Math.PI * radius * radius);
     }
 }
